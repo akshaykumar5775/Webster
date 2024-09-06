@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://admin:Webster_2022@webster2022.hxf1sqy.mongodb.net/?retryWrites=true&w=majority",
+    
+    "jwtSecret": "akshay+daksh"
+}

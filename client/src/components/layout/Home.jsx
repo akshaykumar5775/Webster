@@ -1,0 +1,24 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Home = () => {
+    return (
+        <section className="landing">
+            <div className="dark-overlay">
+                <div className="landing-inner">
+                    <h1 className="x-large">Seeking Jobs</h1>
+                    <p className="lead">
+                        Create a jobs profile/portfolio, share posts and get updates of hiring from your
+                        dream companies.
+                    </p>
+                    <div className="buttons">
+                        <Link to="/signUpUser" className="btn btn-primary">Sign Up</Link>
+                        <Link to="/logInUser" className="btn btn-light">Login</Link>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default Home;
